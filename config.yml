@@ -11,7 +11,7 @@ outputs:
   page:
     - "HTML"
     - "RSS"
-    
+
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
@@ -102,7 +102,7 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "michaelpham.xyz" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
       disableAbout: false
@@ -142,8 +142,8 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as an IT Support Representative at Infinite Campus. 
-      I am currently working on a personal project that will be used to help people get to know me better.  
+      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as an IT Support Representative at Infinite Campus.
+      I am currently working on a personal project that will be used to help people get to know me better.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -164,7 +164,7 @@ params:
       - job: "Support Representative"
         company: "Infinite Campus"
         companyUrl: "https://infinitecampus.com"
-        date: "June 2022 - present" 
+        date: "June 2022 - present"
         content: "I am currently working as a Support Representative at [Infinite Campus](https://infinitecampus.com). I am currently learning and gaining experience in various areas of our product. As part of the Support, I get a lot of exposure and insight of what issues everyday-customers have."
 
       - job: "Technical Support"
@@ -176,13 +176,13 @@ params:
           url: "https://example.com"
         info:
           enable: true
-          content: I worked as a technical support coordinator at my local parish. 
+          content: I worked as a technical support coordinator at my local parish.
         content:
           I am currently Volunteering as a technical support coordinator at my [local parsh.](https://example.com) in Minneapolis. I am currently working on a project that will be used to help parents streamline registration for their students and for teachers to more actively take attendance.
 
           - Lead backend developer for a product.
           - Created a frontend design for a product.
-    
+
   # Education
   education:
     enable: true
@@ -197,7 +197,7 @@ params:
         content: |-
           Extracurricular Activities
             - Cybersecurity/Pentesting club
-            
+
       - title: "High School"
         school:
           name: "Coon Rapids High School"
@@ -208,7 +208,7 @@ params:
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
           - Face mask detection using a single convolutional neural network.
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
 
   # Achievements
@@ -221,7 +221,7 @@ params:
         url: https://example.com
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
+      - title: michaelpham.xyz
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
       - title: Microsoft Imagine Runner
@@ -235,7 +235,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
+      - title: michaelpham.xyz
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
         image: /images/projects/profile.png
         featured:
