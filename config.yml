@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Michael Pham's site"
-  description: Text about my cool site
+  title: "Michael Pham's Website"
+  description: Michael Pham's Website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -108,17 +108,17 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
-      disableAchievements: false
+      disableProjects: true
+      disableAchievements: true
       disableContact: false
 
   # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Michael."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Michael Pham"
+    subtitle: "I am an IT Specialist"
+    content: "Welcome to my website!"
     image: /images/hero.svg
     button:
       enable: true
@@ -131,7 +131,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/phamflex20
         - icon: fab fa-twitter
-          url: https://example.com
+          url: https://twitter.com
       customIcons:
         - icon: /fav.png
           url: "https://michaelpham.xyz"
@@ -169,16 +169,16 @@ params:
 
       - job: "Technical Support"
         company: "St Annes and St Joseph Hien"
-        companyUrl: "https://example.com"
+        companyUrl: "https://gxannagiusehien.net"
         date: "Sep 2019 - Present"
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          enable: false
+          url: "https://gxannagiusehien.net"
         info:
           enable: true
           content: I worked as a technical support coordinator at my local parish.
         content:
-          I am currently Volunteering as a technical support coordinator at my [local parsh.](https://example.com) in Minneapolis. I am currently working on a project that will be used to help parents streamline registration for their students and for teachers to more actively take attendance.
+          I am currently Volunteering as a technical support coordinator at my [local parsh.](https://gxannagiusehien.net) in Minneapolis. I am currently working on a project that will be used to help parents streamline registration for their students and for teachers to more actively take attendance.
 
           - Lead backend developer for a product.
           - Created a frontend design for a product.
@@ -192,7 +192,7 @@ params:
       - title: "Bachelor of Science in Information Technology"
         school:
           name: "Metropolitan State University"
-          url: "https://example.org"
+          url: "https://metrostate.edu"
         date: "2018 - 2022"
         content: |-
           Extracurricular Activities
@@ -201,19 +201,18 @@ params:
       - title: "High School"
         school:
           name: "Coon Rapids High School"
-          url: "https://example.org"
+          url: "https://www.ahschools.us/crhs"
         date: "2014 - 2018"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -232,7 +231,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: michaelpham.xyz
@@ -285,7 +284,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: michael.pham@michaelpham.xyz
     btnName: Mail me
 
   footer:
@@ -296,7 +295,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/phamflex20
       linkedin: https://linkedin.com
       twitter: https://twitter.com
       instagram: https://instagram.com
